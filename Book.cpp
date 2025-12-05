@@ -1,8 +1,8 @@
 #include "Book.h"
 #include <iostream>
-
+using namespace std;
 // Constructor passes title/price up to PrintedMedia
-Book::Book(std::string t, double p, std::string a, std::string i) 
+Book::Book(string t, double p, string a, string i)
     : PrintedMedia(t, p), author(a), isbn(i) {}
 
 void Book::printDetails() {

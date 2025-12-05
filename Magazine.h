@@ -3,16 +3,16 @@
 
 #include "PrintedMedia.h"
 #include <string>
+using namespace std;
 
 class Magazine : public PrintedMedia {
 private:
-    std::string month;
+    string month;
     int issueNum;
 
 public:
-    // TODO: Declare the Constructor (needs title, price, month, issueNum)
-    
-    // TODO: Declare the override for printDetails()
+    Magazine(string title, double price, string month, int issueNum);
+    void printDetails() override;
 };
 
 #endif

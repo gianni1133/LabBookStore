@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+using namespace std;
 
 class PrintedMedia {
 protected:
@@ -11,7 +12,7 @@ protected:
 
 public:
     // Constructor
-    PrintedMedia(std::string t, double p);
+    PrintedMedia(string t, double p);
 
     // Virtual Destructor (Important for polymorphism)
     virtual ~PrintedMedia() {}

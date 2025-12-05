@@ -13,12 +13,12 @@ int main() {
 
     // 1. Add a Book (Already done for you)
     library.push_back(new Book("The Great Gatsby", 12.99, "F. Scott Fitzgerald", "978-0743273565"));
-
+    library.push_back(new Book("The Sun Is Also A Star", 4.99, "Nicola Yoon", "978-0553496703"));
     // 2. TODO: Add a Magazine (Uncomment when Magazine is implemented)
-    // library.push_back(new Magazine("National Geographic", 6.99, "August", 205));
+     library.push_back(new Magazine("TIME Magazine", 6.99, "September", 146));
 
     // 3. TODO: Add a BookSet (Uncomment when BookSet is implemented)
-    // library.push_back(new BookSet("Harry Potter", 25.50, "J.K. Rowling", "555-12345", 1));
+    library.push_back(new BookSet("Harry Potter", 25.50, "J.K. Rowling", "555-12345", 1));
 
 
     // PRINT THE INVENTORY

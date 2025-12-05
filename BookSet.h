@@ -2,7 +2,7 @@
 #define BOOKSET_H
 
 #include "Book.h"
-
+using namespace std;
 // Inherits from Book, NOT PrintedMedia
 class BookSet : public Book {
 private:
@@ -10,7 +10,7 @@ private:
 
 public:
     // Constructor: Needs Title, Price, Author, ISBN, Volume
-    BookSet(std::string t, double p, std::string a, std::string i, int v);
+    BookSet(string t, double p, string a, string i, int v);
 
     void printDetails() override;
 };
